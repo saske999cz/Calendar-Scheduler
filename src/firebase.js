@@ -10,14 +10,14 @@ import { getDatabase } from "firebase/database";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBA6H_f1MKktL5Ut5unN2y4zvzNuuoMNEA",
-  authDomain: "meeting-scheduler-a4811.firebaseapp.com",
-  databaseURL: "https://meeting-scheduler-a4811-default-rtdb.firebaseio.com",
-  projectId: "meeting-scheduler-a4811",
-  storageBucket: "meeting-scheduler-a4811.appspot.com",
-  messagingSenderId: "863049826499",
-  appId: "1:863049826499:web:4180328ce284c9097a6276",
-  measurementId: "G-PL4C6Y195L"
+  apiKey:REACT_APP_FIREBASE_API_KEY,
+  authDomain:REACT_APP_FIREBASE_AUTH_DOMAIN,
+  databaseURL:EACT_APP_FIREBASE_DATABASE,
+  projectId:REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket:REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId:REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId:REACT_APP_FIREBASE_APP_ID,
+  measurementId:REACT_APP_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
