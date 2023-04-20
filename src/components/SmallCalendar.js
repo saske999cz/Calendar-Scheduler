@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import GlobalContext from "../context/GlobalContext";
 import { getMonth } from "../util";
 
+
 export default function SmallCalendar() {
   const [currentMonthIdx, setCurrentMonthIdx] = useState(
     dayjs().month()
@@ -78,7 +79,7 @@ export default function SmallCalendar() {
                   setSmallCalendarMonth(currentMonthIdx);
                   setDaySelected(day);
                 }}
-                className={`py-1 w-full ${getDayClass(day)}`}
+                className={`small_day py-1 w-full ${getDayClass(day)}`}
               >
                 <span className="text-sm">{day.format("D")}</span>
               </button>

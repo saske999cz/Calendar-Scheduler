@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.Logout_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        position: absolute;
+        top: 215px;
+    }
+    .Logout_form{
+        width: 500px;
+        height: 55vh;
+        position: absolute;
+        top: 200px;
+        border-radius: 5px;
+        box-shadow: 5px 10px 8px 10px #888888;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .email{
+
+            position: absolute;
+            top: 90px;
+            margin-right: 50px;
+            width: 400px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 10px;
+            padding-left: 10px;
+            .Email_label{
+                position: relative;
+                right: -25px;
+
+            }
+            .Email_input{
+                position: relative;
+                left: -10px;
+                border-radius: 10px;
+                width: 270px;
+            }
+        }
+        .password{
+            position: absolute;
+            top: 150px;
+            padding-top: 20px;
+            margin-right: 50px;
+            width: 400px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 10px;
+            padding-left: 10px;
+            .Password_label{
+                position: relative;
+                right: -10px;
+            }
+            .Password_input{
+                width: 270px;
+                position: relative;
+                left: -10px;
+                border-radius: 10px;
+            }
+        }
+
+        .Login_button{
+            margin-top: 50px;
+            width: 150px;
+            height: 40px;
+            background-color: #2D79F5;
+            color: #f5f5f7;
+            border-radius: 20px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+        }
+
+        .Login_button:hover{
+            
+            background-color: #2297E8;
+           
+        }
+    }
+
+    .forgot{
+        position: relative;
+        top: 590px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        color: #2297E8;
+    }
+    .signup{
+        position: relative;
+        top: 600px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        .signup_link{
+            color: #2D79F5;
+        }
+
+    }
+}

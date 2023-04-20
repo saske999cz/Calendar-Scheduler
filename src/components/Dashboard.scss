@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.Dashboard{
+    margin-left: 6px;
+    box-shadow: 1px 1px 2px #000;
+    width: 300px;
+    .Container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        .Avatar{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #000;
+        }
+
+        .Profile_email{
+            margin-top: 15px;
+        }
+
+        .Update_profile{
+            width: 200px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            color: #f5f5f7;
+            background-color: #2D79F5;
+            border-radius: 20px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+        }
+        .Update_profile:hover{
+            
+            background-color: #2297E8;
+           
+        }
+
+        .Logout{
+            position: absolute;
+            top: 85%;
+            width: 200px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            color:  #2D79F5;
+            background-color: #D3D3D3;
+            border-radius: 20px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            
+        }
+    }
+}
